@@ -1607,3 +1607,212 @@ body {
     from { opacity: 0; }
     to { opacity: 1; }
 }
+
+/* --- Mobile Responsiveness Enhancements --- */
+@media screen and (max-width: 600px) {
+    /* Welcome / Gift Box Overlay Screen */
+    .welcome-card h1 {
+        font-size: 2.6rem !important;
+    }
+    .welcome-card {
+        padding: 20px !important;
+    }
+    .gift-box-container {
+        height: 150px;
+        width: 120px;
+        margin: 30px auto;
+    }
+    .gift-lid {
+        width: 130px;
+        top: 25px;
+    }
+    .gift-body {
+        width: 120px;
+        height: 90px;
+    }
+    .gift-box-container::after {
+        font-size: 2.5rem;
+        left: 40px;
+    }
+
+    /* Main Title & Subtitle */
+    .main-title {
+        font-size: 1.8rem !important;
+    }
+    .main-subtitle {
+        font-size: 0.95rem !important;
+    }
+
+    /* Cohesive Navigation Grid on Mobile */
+    .nav-container {
+        border-radius: 18px !important;
+        padding: 6px !important;
+        gap: 6px !important;
+    }
+    .nav-tab {
+        font-size: 0.8rem !important;
+        padding: 10px 8px !important;
+        max-width: calc(50% - 4px) !important;
+        border-radius: 12px !important;
+        gap: 4px !important;
+        flex-grow: 1;
+    }
+    .nav-tab i {
+        font-size: 0.95rem !important;
+    }
+
+    /* Bouquet Workspace scaling */
+    .bouquet-canvas-container {
+        height: 410px !important;
+    }
+    .workspace-wrap {
+        width: 150px !important;
+        height: 180px !important;
+    }
+    .workspace-wrap.wrap-glass-vase {
+        width: 100px !important;
+        height: 150px !important;
+        bottom: 10px !important;
+    }
+    .workspace-ribbon {
+        bottom: 100px !important;
+        font-size: 2.2rem !important;
+    }
+    .flower-obj {
+        font-size: 2.8rem !important;
+    }
+
+    /* Game Live Score Layout */
+    .game-top-bar {
+        font-size: 0.85rem !important;
+    }
+    .game-stats-display {
+        gap: 8px !important;
+        margin: 16px 0 !important;
+    }
+    .stat-box {
+        padding: 8px !important;
+    }
+    .stat-value {
+        font-size: 1.2rem !important;
+    }
+    .game-instructions-list {
+        font-size: 0.85rem !important;
+        padding: 12px !important;
+    }
+
+    /* Sticky Proposal Footer */
+    .app-footer {
+        width: 95% !important;
+        padding: 12px 16px !important;
+        border-radius: 16px !important;
+    }
+    .footer-question {
+        font-size: 0.9rem !important;
+    }
+    .footer-actions .cute-btn {
+        padding: 8px 16px !important;
+        font-size: 0.85rem !important;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Timeline Layout optimization for very narrow screens */
+    .timeline::after {
+        left: 18px !important;
+    }
+    .timeline-item {
+        padding-left: 38px !important;
+        padding-right: 8px !important;
+    }
+    .timeline-dot {
+        left: 8px !important;
+        width: 16px !important;
+        height: 16px !important;
+        top: 26px !important;
+        border-width: 3px !important;
+    }
+    .timeline-card {
+        padding: 12px !important;
+    }
+    .photo-frame {
+        padding: 8px 8px 16px 8px !important;
+        margin-bottom: 10px !important;
+    }
+    .card-content h3 {
+        font-size: 1.1rem !important;
+    }
+    .card-content p {
+        font-size: 0.85rem !important;
+    }
+    .card-date {
+        padding: 2px 8px !important;
+        font-size: 0.7rem !important;
+        margin-bottom: 6px !important;
+    }
+    
+    /* Love Jar Pop-up Note */
+    .love-note {
+        padding: 20px !important;
+        gap: 12px !important;
+    }
+    .love-note-text {
+        font-size: 1.35rem !important;
+    }
+    
+    /* Bouquet Showcase Card */
+    .bouquet-showcase {
+        gap: 12px !important;
+        padding: 16px !important;
+    }
+    .showcase-bouquet-img {
+        width: 140px !important;
+        height: 140px !important;
+    }
+    .showcase-caption {
+        font-size: 2.2rem !important;
+    }
+    .showcase-alternative {
+        font-size: 0.9rem !important;
+    }
+
+    /* Love Letter Reward Scroll */
+    .letter-content {
+        padding: 16px 12px !important;
+    }
+    .letter-para, .letter-content ul {
+        font-size: 0.85rem !important;
+        line-height: 1.5 !important;
+    }
+    .romantic-title {
+        font-size: 2.2rem !important;
+    }
+    .signature-font {
+        font-size: 1.8rem !important;
+    }
+
+    /* YES Proposal Overlay */
+    .proposal-modal {
+        padding: 16px !important;
+    }
+    .proposal-modal h2 {
+        font-size: 2rem !important;
+    }
+    .proposal-subtitle {
+        font-size: 0.9rem !important;
+    }
+    .cuddle-graphics {
+        height: 100px !important;
+    }
+    .cuddle-heart {
+        font-size: 3.5rem !important;
+    }
+    .contract-card {
+        padding: 12px !important;
+        margin: 12px 0 !important;
+    }
+    .agreement-list {
+        font-size: 0.8rem !important;
+        gap: 6px !important;
+    }
+}
